@@ -1,0 +1,226 @@
+/* iPads and Tablets - portrait mode*/
+@media screen and (max-width: 768px) {
+h1  { 
+  max-width: 355px;  
+  font-size: var(--size-40);
+}
+
+.bg-header { padding: var(--size-40) 0;}
+
+.bg-header .container { 
+  padding: 0px;
+  gap: 35px 50px;
+  flex-wrap: wrap;  
+}
+
+.empowering {
+  margin: 0 auto;
+  flex: none;
+}
+.icons  { 
+  margin: 0 auto;
+  flex: none;
+}
+
+.top-row,
+.middle-row,
+.bottom-row {justify-content: center;}
+
+.atlassian { margin-left: 4rem; }
+.atlassian,
+.ads {margin-right: var(--size-100);}
+
+.benefits { 
+  justify-content: center;  
+  gap: 30px 30px;
+}
+
+.container.gs {
+  gap: 40px 0px;
+}
+
+.left-side {margin-left: 50px;}
+.left-side h2 { margin: 30px 20px 15px 30px;}
+.right-side {margin: 0px auto;}
+
+.components { max-width: 200px;}
+
+.dot-left,
+.dot-right {
+  flex: none;
+  width: 60px;
+}
+
+.director-pic { max-width: 380px;}
+
+.dots { top: 23%; }
+
+.hubspot { margin-left: 30px;}
+
+.hubspot div { margin-top: 70px;}
+
+.quote {
+  max-width: 200px;  
+  font-size: var(--size-16);
+}
+
+.left-price { margin-left: 40px;}
+
+.left-hire { padding: 100px 50px;}
+
+.right-hire { margin-right: 40px;}
+
+.right-hire p { font-size: var(--size-16);}
+
+#firstname,
+#email,
+#lastname,
+#website,
+#budget,
+#country { width: 150px;}
+
+footer .container { padding: 0px 5px;}
+
+.address {margin-right: 0px;}
+
+.street {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-items {padding: 0px 10px;}
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+[aria-controls="navbarDropdown"] {
+  display: block;
+}
+
+[aria-expanded="false"] ~ ul {
+  display: none;
+}
+
+[aria-expanded="true"] ~ ul {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: var(--size-100);
+  background-image: linear-gradient(to right, transparent, var(--white));
+  width: 100%;
+  text-align: right;
+  box-shadow: 0px 0px 20px, rgba(52, 49, 75, 0.1);
+}
+
+[aria-expanded="true"] ~ ul li a {
+  margin-right: var(--size-20);
+  color: var(--font-color-dark);
+}
+
+.container.bg-gradient { 
+  height: 750px;
+  clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+}
+
+h1  { 
+  max-width: 345px;  
+  font-size: var(--size-30);
+}
+
+.navbar .container {padding: 0px 30px;}
+
+.bg-header {padding: var(--size-40) 0px;}
+
+
+
+
+.atlassian,
+.ads {margin: auto;}
+.atlassian {margin-top: 50px;}
+.bottom-row {display: none;}
+
+
+.left-side {margin: 0px auto }
+
+.why-front .container > p { max-width: 350px;
+}
+
+.components-container { 
+  flex-wrap: wrap;
+  gap: 15px 0px;
+  justify-content: left;
+  margin-left: 10px;
+  max-width: 350px;
+}
+
+.components {
+  display: flex;
+  flex-direction: row;
+  max-width: 350px;
+}
+
+.basic {width: 80px;}
+
+.components h4 {
+  text-align: left;
+  width: 180px;
+}
+
+.dot-left,
+.dot-right {display: none;}
+
+.director-container { 
+  margin: var(--size-50) auto;
+  flex-wrap: wrap;
+}
+
+.dots {
+  left: -12%;  
+  top: 10%;
+}
+
+.hubspot {margin-left: 60px;}
+.quote { 
+  max-width: 300px;
+  font-size: var(--size-20);
+}
+
+.companies > div:nth-child(1),
+.companies > div:nth-child(2) {display: none;}
+
+.left-price {margin-right: 40px;}
+.price-container {flex-wrap: wrap;}
+.right-price {margin: 25px 0px 15px 90px;}
+
+
+.hire-us .container { flex-wrap: wrap;}
+.left-hire {padding: 50px}
+.right-hire {margin: 10px 20px;}
+
+#firstname,
+#email,
+#lastname,
+#website,
+#budget,
+#country { 
+  width: 230px;
+  margin-bottom: 20px;
+}
+
+
+footer .container {flex-wrap: wrap;}
+
+.address {
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.street {
+  margin-bottom: 5px;  
+  max-width: 300px;
+}
+
+.footer-items {margin: 0px 20px;}
+}

@@ -4,9 +4,12 @@
   --font-color-base: #666;
   --font-color-dark: #212529;
   --font-color-light: #b0aebe;
+  --font-color-light-link: #f1f2fd;
   --font-color-link: #4198fc;
+  --font-color-link2: #41fccd;
   
   --size-10: 0.625rem;
+  --size-12: 0.725rem;
   --size-14: 0.875rem;
   --size-16: 1rem;
   --size-18: 1.125rem;
@@ -35,6 +38,23 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container.bg-gradient {
+  height: 515px;
+  background: linear-gradient(333deg, rgba(245,247,252,1) 40%, rgba(255,255,255,1) 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 73%, 0% 100%);
+  z-index: -1;
+  position: absolute;
+  padding: 0;
+  left: 0;
+  right: 0;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -50,14 +70,6 @@ img {
 }
 
 a { text-decoration: none; }
-
-.container {
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .btn {
   display: inline-block; 
@@ -81,6 +93,15 @@ a { text-decoration: none; }
   font-size: var(--size-14);
 }
 
+.btn-green {
+  background-color: var(--font-color-link2);
+  color: var(--white);
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, .35);
+  padding: 0px 8px;
+  font-size: var(--size-12);
+  font-weight: 600;
+  margin-left: 10px;
+}
 
 @media (min-width: 1200px) {
   .container {max-width: 1140px;}
