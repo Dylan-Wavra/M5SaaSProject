@@ -94,7 +94,7 @@ footer .container { padding: 0px 5px;}
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 385px) {
 [aria-controls="navbarDropdown"] {
   display: block;
 }
@@ -133,19 +133,14 @@ h1  {
 
 .bg-header {padding: var(--size-40) 0px;}
 
-
-
-
 .atlassian,
 .ads {margin: auto;}
 .atlassian {margin-top: 50px;}
 .bottom-row {display: none;}
 
-
 .left-side {margin: 0px auto }
 
-.why-front .container > p { max-width: 350px;
-}
+.why-front .container > p { max-width: 350px;}
 
 .components-container { 
   flex-wrap: wrap;
@@ -194,7 +189,6 @@ h1  {
 .price-container {flex-wrap: wrap;}
 .right-price {margin: 25px 0px 15px 90px;}
 
-
 .hire-us .container { flex-wrap: wrap;}
 .left-hire {padding: 50px}
 .right-hire {margin: 10px 20px;}
@@ -208,7 +202,6 @@ h1  {
   width: 230px;
   margin-bottom: 20px;
 }
-
 
 footer .container {flex-wrap: wrap;}
 
